@@ -54,8 +54,8 @@ public class proj4 extends Application {
 		btns.setAlignment(Pos.CENTER);
 		btns.getChildren().add(btExit); // adding buttons 
 		btns.getChildren().add(btNew);
-		BorderPane mainPane = new BorderPane(), topPane = new BorderPane();             		//poop happened here!
-		mainPane.setTop(topPane);                       //if you're wondering what happened please go to line 388
+		BorderPane mainPane = new BorderPane(), topPane = new BorderPane();             		
+		mainPane.setTop(topPane);                    
 		topPane.setLeft(btns);
 		topPane.setCenter(new Label("Potential Score: " + potentialScore));
 		topPane.setRight(new Label("Score: " + score));
