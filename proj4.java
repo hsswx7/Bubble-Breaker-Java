@@ -1,7 +1,7 @@
 
 /**
  * @author Harprabh Sangha//hsswx7
- *
+ * This project simpulates and runs, using JavaFx, BubbleBreaker
  */
 
 import java.io.File;
